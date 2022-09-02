@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" src="javascript.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Web Dev</title>
+    <style>
+      .banner {
+        max-width: 100%;
+      }
+
+      h1 {
+        font-size: 2em;
+        color: #686868;
+      }
+
+      .sub-title {
+        background-color: #fff;
+        font-size: 1.5em;
+        padding-top: 10px;
+      }
+
+      article {
+        margin: 15px;
+        text-align: center;
+      }
+
+      article .article-container {
+        margin: 2em;
+        padding: 0;
+        background-color: #fff;
+        border-radius: 15px;
+        max-height: 100%;
+        max-width: 65%;
+        min-width: 290px;
+        clear: both;
+        display: inline-block;
+      }
+
+      article .article-container .article-text {
+        padding: 1em;
+        text-align: left;
+      }
+
+      article img {
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#" class="books-link">Books</a></li>
+          <li><a href="#" class="contact-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+      <div id="books-modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span id="books-close" class="close">&times;</span>
+            <h2>Books?!?</h2>
+          </div>
+          <div class="modal-body">
+            <p>
+              No books for this class!
+            </p>
+            <p>
+              They are expensive and don't have anything you couldn't find on the internet anyway!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <h3>No books!</h3>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact-modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span id="contact-close" class="close">&times;</span>
+            <h2>Contact Michael</h2>
+          </div>
+          <div class="modal-body">
+            <p>
+              Hit me up on Discord...
+            </p>
+            <p>
+              I'm bad at keeping up with my email. Discord is your best bet.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <h3>Discord!</h3>
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <img src="images/web_development_logo.png" alt="">
+      </aside>
+        <article>
+          <div class="article-container">
+            <img class="article-image" src="images/classroom.png" alt="">
+            <div class="article-text">
+              <h1>Welcome to Advanced Web Development!</h1>
+              <p class="sub-title">
+                Dive further into client-side web development with in-depth coverage of CSS, JavaScript, Bootstrap, and jQuery. Students learn to use third party libraries to efficiently build fully styled and functional, front-end applications.
+              </p>
+            </div>
+          </div>
+        </article>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#" class="books-link">Books</a></li>
+          <li><a href="#" class="contact-link">Contact</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
