@@ -1,0 +1,11 @@
+/* Example 1 */
+#my-div { color: red; } /* Weight: 1-0-0 WINS because ID column is higher */
+.container .paragraph .text { color: green; } /* Weight: 0-3-0 */
+
+/* Example 2 */
+#my-div { color: green; /* Weight: 1-0-0 */ }
+#my-container [id="my-div"] { color: blue; /* Weight: 1-1-0 WINS - ID column is even but CLASS column is higher */ }
+
+/* Example 3 */
+div.container { color: red; /* Weight: 0-1-1 */ }
+:root div { color: green; /* Weight: 0-1-1 WINS - even weights but last encountered */ }
