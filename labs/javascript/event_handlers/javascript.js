@@ -4,17 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   blueButton.onclick = function() {
     textElement.classList.add("blue");
-  }
-
-  const greenButton = document.getElementById("green-button");
-
-  greenButton.onclick = function() {
-
-  }
-
-  const redButton = document.getElementById("red-button");
-
-  redButton.onclick = function() {
-
+    textElement.classList.remove("green");
+    textElement.classList.remove("red");
   }
 }, false);
