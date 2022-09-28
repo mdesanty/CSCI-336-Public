@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      This is in the div.
+    </div>
+    <span class="tall">
+      This is a tall span.<br/>
+      so<br/>
+      so<br/>
+      so<br/>
+      tall
+    </span>
+    <script>
+      let containerDiv = $("div.container");
+      console.log(containerDiv.text());
+
+      let tallSpan = $("span.tall");
+      console.log(tallSpan.text());
+
+      //let newSpan = $("<span id='new-span'>Oh hello there!<br/><br/></span>");
+      //containerDiv.prepend(newSpan);
+    </script>
+  </body>
+</html>
