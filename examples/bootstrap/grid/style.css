@@ -1,0 +1,15 @@
+.container-blue {
+  background-color: #a1b3e3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container-fluid-green {
+  background-color: #88ba93;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col-bordered {
+  border: 1px solid black;
+}
