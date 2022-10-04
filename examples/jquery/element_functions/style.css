@@ -1,0 +1,68 @@
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.text-container {
+  width: 650px;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#the-text {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  background-color: #ccccff;
+}
+
+.button-row {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-row p {
+  margin: 0px;
+  margin-top: 13px;
+}
+
+button {
+  width: 100px;
+  padding: 5px;
+  margin-top: 3px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+input[type="text"] {
+  height: 30px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid grey;
+  border-right: none;
+}
+
+#change-text-btn {
+  margin-left: 0px;
+  border-radius: 0 4px 4px 0;
+  border: 0.5px solid grey;
+  height: 30px;
+}
+
+.pender {
+  margin: 0px;
+  padding: 0px;
+}
+
+.orange {
+  background-color: orange !important;
+}
