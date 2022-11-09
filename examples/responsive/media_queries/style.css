@@ -1,0 +1,48 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+.dynamic-container {
+  background-color: #a1b3e3;
+  padding: 20px;
+  height: 400px;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .dynamic-container {
+    background-color:aqua;
+    width: 500px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .dynamic-container {
+    background-color: blue;
+    width: 650px;
+    color: white;
+    text-align: left;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .dynamic-container {
+    background-color: green;
+    width: 900px;
+    color: white;
+    text-align: left;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .dynamic-container {
+    background-color: orange;
+    width: 1150px;
+    color: white;
+    text-align: left;
+  }
+}

@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function () {
+      const state = { emailAddress: "" };
+
+      console.log("Calling getEmailAddress");
+      getEmailAddress();
+
+      console.log("Calling formatEmailAddress");
+      formatEmailAddress();
+
+      console.log("Calling showEmailAddress");
+      showEmailAddress();
+
+      function getEmailAddress(callback) {
+        console.log("Starting getEmailAddress (${state.emailAddress})");
+
+        setTimeout(function () {
+          state.emailAddress = " Tony@Kellogs.com  ";
+          console.log(`Ending getEmailAddress (${state.emailAddress})\n-`);
+        }, 2000);
+      }
+
+      function formatEmailAddress() {
+        console.log(`Starting formatEmailAddress (${state.emailAddress})`);
+
+        state.emailAddress = state.emailAddress.trim();
+        state.emailAddress = state.emailAddress.toLowerCase();
+
+        console.log(`Ending formatEmailAddress (${state.emailAddress})\n-`);
+      }
+
+      function showEmailAddress() {
+        console.log("Starting showEmailAddress");
+        console.log(`Email Address: "${state.emailAddress}"`);
+        console.log("Ending showEmailAddress\n-");
+      }
+    });
+  </script>
+</head>
+
+</html>
