@@ -1,0 +1,12 @@
+#card-btn {
+  width: 90px;
+  height: 40px;
+}
+
+#playing-card {
+  width: 200px;
+}
+#playing-card-image {
+  height: 300px;
+  padding: 0px;
+}
