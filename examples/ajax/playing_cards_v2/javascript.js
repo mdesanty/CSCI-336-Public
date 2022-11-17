@@ -62,7 +62,7 @@ function drawCard(e) {
 }
 
 function showCard(data) {
-  state.currentCardImg = data.cards[0].image
+  state.currentCardImg = data.cards[0].image;
   $("#playing-card-image").attr("src", state.currentCardImg);
   updateViewAsDoneLoading();
 }
